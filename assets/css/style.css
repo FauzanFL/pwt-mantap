@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 /* Header */
 
 header {
@@ -22,7 +26,8 @@ header {
 }
 
 .jumbotron > p {
-  text-indent: 10%;
+  margin-left: 10%;
+  font-size: 0.68em;
 }
 
 nav {
@@ -66,11 +71,11 @@ nav {
 
 #main {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 
 aside {
-  width: 30%;
+  width: 100%;
 }
 
 aside > article {
@@ -110,8 +115,7 @@ aside .about:hover {
 
 /* Main content */
 .content {
-  width: 70%;
-  margin: 10px;
+  width: 100%;
   box-shadow: 0 1px 2px 1px black;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -125,7 +129,7 @@ aside .about:hover {
 
 .content p {
   margin-bottom: 8px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.2em;
 }
 
@@ -134,12 +138,12 @@ aside .about:hover {
 }
 
 #wisata img {
-  max-width: 500px;
+  width: 100%;
 }
 
 .makanan__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
@@ -156,7 +160,7 @@ aside .about:hover {
 }
 
 .makanan__card p {
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 5px;
 }
 
@@ -214,4 +218,57 @@ aside .about:hover {
   background-color: black;
   padding: 5px;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .jumbotron > p {
+    font-size: 0.9em;
+  }
+
+  .makanan__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  aside {
+    width: 60%;
+    margin: 1px auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .jumbotron > p {
+    font-size: 1em;
+  }
+
+  #main {
+    flex-direction: row-reverse;
+  }
+
+  aside {
+    width: 30%;
+  }
+
+  .content {
+    width: 70%;
+    margin: 10px;
+  }
+
+  .content p {
+    font-size: 1.2em;
+  }
+
+  #wisata img {
+    max-width: 500px;
+  }
+
+  .makanan__card p {
+    font-size: 1.1em;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .makanan__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
