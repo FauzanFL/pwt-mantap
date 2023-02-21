@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  min-height: 100px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #b4cf87;
+  font-size: 1.3em;
+}
+
+.jumbotron > p {
+  text-indent: 10%;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: end;
+  background-color: #5f8d4e;
+}
+
+.nav__list {
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.nav__list > li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nav__list > li a {
+  display: block;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 10px;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  line-height: 2em;
+  transition: 0.5s;
+}
+
+.nav__list > li a:hover {
+  color: black;
+  background-color: #e5d9b6;
+}
