@@ -56,3 +56,31 @@ nav {
   color: black;
   background-color: #e5d9b6;
 }
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.social {
+  background-color: #363636;
+}
+
+.social__item {
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.footer p {
+  height: 30px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  box-sizing: border-box;
+}
