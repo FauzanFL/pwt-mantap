@@ -103,6 +103,7 @@ aside .about:hover {
   box-shadow: none;
 }
 
+/* Main content */
 .content {
   width: 70%;
   margin: 10px;
@@ -114,7 +115,7 @@ aside .about:hover {
 .content h2 {
   margin-bottom: 8px;
   padding: 5px;
-  border-bottom: 2px double black;
+  border-bottom: 2px double #285430;
 }
 
 .content p {
@@ -125,6 +126,10 @@ aside .about:hover {
 
 .content article {
   margin-bottom: 20px;
+}
+
+#wisata img {
+  max-width: 500px;
 }
 
 /* Footer */
