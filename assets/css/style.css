@@ -132,6 +132,29 @@ aside .about:hover {
   max-width: 500px;
 }
 
+.makanan__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.makanan__card {
+  box-shadow: 0 1px 2px black;
+}
+
+.makanan__card h3 {
+  padding: 5px;
+}
+
+.makanan__card img {
+  width: 100%;
+}
+
+.makanan__card p {
+  font-size: 1.1em;
+  padding: 5px;
+}
+
 /* Footer */
 
 .footer {
