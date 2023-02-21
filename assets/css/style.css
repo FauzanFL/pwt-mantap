@@ -195,7 +195,7 @@ aside .about:hover {
 }
 
 .social {
-  background-color: #363636;
+  background-color: #1a1a1a;
 }
 
 .social__item {
@@ -203,7 +203,7 @@ aside .about:hover {
   min-width: 44px;
   min-height: 44px;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
   color: white;
   box-sizing: border-box;
 }
