@@ -4,5 +4,17 @@
     "img": "mendoan.jpg",
     "description":
       "Mendoan adalah makanan berbahan dasar tempe yang berbalut tepung bumbu dan digoreng dalam minyak panas. Camilan ini biasanya digoreng sampai kering sehingga teksturnya renyah. Namun, di daerah asal mendoan yakni Purwokerto, Banyumas, mendoan sangat berbeda dengan mendoan yang ada di pasaran. Mendoan khas Purwokerto hanya digoreng setengah matang."
+  },
+  {
+    "name": "Gethuk Goreng",
+    "img": "gethuk-goreng.jpg",
+    "description":
+      "Getuk atau gethuk goreng adalah salah satu makanan khas Kabupaten Banyumas, Jawa Tengah. Ada dua sentra getuk atau gethuk goreng di Banyumas. Selain di Kecamatan Sokaraja, getuk atau gethuk goreng juga menjadi penganan khas Kota Purwokerto, wilayah yang menjadi bagian dari Kabupaten Banyumas."
+  },
+  {
+    "name": "Sroto Sokaraja",
+    "img": "sroto-sokaraja.jpg",
+    "description":
+      "Sroto Sokaraja menjadi salah satu kuliner khas Banyumas, Jawa Tengah, yang memiliki ciri khas saus sambal kacang yang menggoyang lidah. Untuk sambal kacang ini bisa disajikan dengan dicampur kuah, tetapi ada juga yang terpisah."
   }
 ]

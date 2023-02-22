@@ -2,6 +2,26 @@
   {
     "name": "Rahman",
     "comment":
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat id ab repudiandae, qui aut veritatis hic in tempora esse optio natus est nobis, ut cupiditate?',"
+      "Banyak tempat wisata yang bisa dikunjungi"
+  },
+  {
+    "name": "Soleh",
+    "comment":
+      "Makanannya murah murah"
+  },
+  {
+    "name": "Dinda",
+    "comment":
+      "Biaya hidup terjangkau dan ekonomis"
+  },
+  {
+    "name": "Jany",
+    "comment":
+      "Wilayah aman tidak ada geng motor atau yang lainnya"
+  },
+  {
+    "name": "Adit",
+    "comment":
+      "Jalanan tidak terlalu macet karena ada jalan satu arah"
   }
 ]
